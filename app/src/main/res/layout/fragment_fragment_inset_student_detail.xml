@@ -1,0 +1,35 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.rndroid.sqlite_listview_project1.FragmentInsetStudentDetail">
+
+    <!-- TODO: Update blank fragment layout -->
+    <EditText
+        android:elevation="5dp"
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:id="@+id/edittextName_InsertDetails"
+        android:hint="Enter Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:id="@+id/edittextSubject_InsertDetails"
+        android:hint="Enter Subjecte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:layout_margin="10dp"
+        android:textSize="20sp"
+        android:id="@+id/buttonInsert_InsertDetails"
+        android:hint="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ListView
+        android:id="@+id/listview1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></ListView>
+</LinearLayout>
